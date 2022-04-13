@@ -1,0 +1,22 @@
+{
+  "name": "interactive-pricing-component-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enbeka/interactive-pricing-component.git"
+  },
+  "author": "Enbeka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enbeka/interactive-pricing-component/issues"
+  },
+  "homepage": "https://github.com/Enbeka/interactive-pricing-component#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
