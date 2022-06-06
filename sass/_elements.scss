@@ -1,0 +1,104 @@
+.app{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #fff;
+    background-image: url(../images/bg-pattern.svg);
+    background-repeat: no-repeat;
+
+    .headline-section{
+        position: absolute;
+        top: 9%;
+        left: 50%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateX(-50%);
+        background-image: url(../images/pattern-circles.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        &__headline{
+            color: $darkDesaturatedBlue;
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        &__subline{
+            text-align: center;
+        }
+    }
+
+    .content-section{
+        position: absolute;
+        top: 56.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 540px;
+        height: 400px;
+        background-color: #fff;
+        box-shadow: 0 10px 25px $lightGrayishBlue;
+        border-radius: 10px;
+
+        .text__container{
+            .text__left{
+
+            }
+
+            .text__right{
+                .amount{
+
+                }
+            }
+        }
+    }
+
+    .slider{
+
+    }
+
+    .switch__container{
+
+    }
+
+    .bottom-section{
+        height: 135px;
+        position: absolute;
+        display: flex;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-top: 1px solid $lightGrayishBlue;
+
+        &__left{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .list{
+                .single-item{
+                    list-style-image: url(../images/icon-check.svg);
+                    margin: 10px 0;
+                    font-size: 12px;
+                    padding-left: 8px;
+                }
+            }
+        }
+
+        &__right{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .btn{
+
+            }
+        }
+    }
+}
